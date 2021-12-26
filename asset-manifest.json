@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ZestMoney-Code-Challenge/static/css/main.d1bed0b2.css",
+    "main.js": "/ZestMoney-Code-Challenge/static/js/main.3b5ae64f.js",
+    "static/js/787.cfd8f164.chunk.js": "/ZestMoney-Code-Challenge/static/js/787.cfd8f164.chunk.js",
+    "static/media/logo.svg": "/ZestMoney-Code-Challenge/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ZestMoney-Code-Challenge/index.html",
+    "main.d1bed0b2.css.map": "/ZestMoney-Code-Challenge/static/css/main.d1bed0b2.css.map",
+    "main.3b5ae64f.js.map": "/ZestMoney-Code-Challenge/static/js/main.3b5ae64f.js.map",
+    "787.cfd8f164.chunk.js.map": "/ZestMoney-Code-Challenge/static/js/787.cfd8f164.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d1bed0b2.css",
+    "static/js/main.3b5ae64f.js"
+  ]
+}
