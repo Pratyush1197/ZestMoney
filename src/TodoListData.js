@@ -44,9 +44,7 @@ function ToDoListData(props) {
   const handleToggleDeleteButton = (key) => {
     
     setToDoList(ToDoList => ToDoList.filter((item, index) => key !== index))
-    //props.ToDoList = ToDoList.slice()
-
-    
+    //props.ToDoList = ToDoList.slice()    
   }
 
 
@@ -57,7 +55,6 @@ function ToDoListData(props) {
 
   }
 
-  console.log(ToDoList)
   return (
     <div className="App">
      
@@ -65,7 +62,7 @@ function ToDoListData(props) {
        return (
       <ul className="list-items">
        { i >0  && <div className="content">
-       {item.isEditable ?  <input onChange={(event) => handlEditOnNameChange(event,i)} placeholder={item.ToDoName} />:<li style={{color: item.isDatePassed ? 'red':'black', textDecoration: item.Completed ? 'line-through': 'none'}}>{item.ToDoName}</li>}
+       {item.isEditable ?  <input onChange={(event) => handlEditOnNameChange(event,i)} placeholder={item.ToDoName} />:<li className="nameList" style={{color: item.isDatePassed ? 'red':'black', textDecoration: item.Completed ? 'line-through': 'none'}}>{item.ToDoName}</li>}
         <li className="descList" >{item.ToDoDescription}</li>
         <li className="dateList" >{item.ToDoDate}</li>
         </div>}

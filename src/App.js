@@ -85,15 +85,15 @@ return (
   {Showerror !== null  && <div style={{backgroundColor: 'red', color: 'white', padding:'10px'}}>{Showerror}</div> }
    <div className="inputForm">
   
-  <label>Name</label>
+  <label>Name:</label>
   <input className="nameInput" onChange={handleToDoNameChange}></input>
   <br></br>
-  <label>Description</label>
+  <label>Description:</label>
 
   <input className="descInput" onChange={handleToDoDescription}/>
   <br></br>
 
-  <label>Date</label>
+  <label>Date:</label>
   <input className="dateInput" type="date" onChange={handleToDoDateChange}/>
   
   <br></br>

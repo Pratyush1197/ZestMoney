@@ -39,8 +39,10 @@ input:focus
 }
 button:hover{
   outline: 1px solid black; 
+  cursor: pointer;
 
 }
+
 label{
   float: left;
   position: absolute;
